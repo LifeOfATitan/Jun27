@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Jun27</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_abdoulaye">AbdoulayeActivity</string>
+    <string name="home_button_text">The 9 Portals</string>
+</resources>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <item name="Red" type="color">#D32F2F</item>
+
+    <item name="Baby_Blue" type="color">#42A5F5</item>
+
+    <item name="Green" type="color">#388E3C</item>
+
+    <item name="Light_Green" type="color">#9CCC65</item>
+
+    <item name="Yellow" type="color">#FFEE58</item>
+
+    <item name="Amber" type="color">#FF8F00</item>
+
+    <item name="Brown" type="color">#795548</item>
+
+    <item name="Grey" type="color">#9E9E9E</item>
+
+    <item name="White" type="color">#FFFFFF</item>
+
+    <item name="Blue_Grey" type="color">#607D8B</item>
+
+
+</resources>

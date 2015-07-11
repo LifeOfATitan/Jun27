@@ -1,0 +1,20 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="ButtonTheme">
+        <!--<item name="android:background">@colors/Red</item>-->
+        <item name="android:layout_height">50dp</item>
+        <item name="android:layout_width">175dp</item>
+    </style>
+
+    <style name="ButtonStyle">
+
+        <item name="android:layout_height">60dp</item>
+        <item name="android:layout_width">175dp</item>
+    </style>
+
+</resources>

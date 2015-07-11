@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="edu.nyu.scps.abdoulaye.jun27.AbdoulayeActivity">
+
+
+    <LinearLayout
+        android:id="@+id/gridView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button1"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:background="@color/Amber"
+            android:text="Asa"
+            android:onClick="AsaClick"/>
+
+        <Button
+            android:id="@+id/button2"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:background="@color/Baby_Blue"
+            android:text="Alrick"
+            android:onClick="AlrickClick"/>
+
+        <Button
+            android:id="@+id/button3"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:background="@color/Red"
+            android:text="David"
+            android:onClick="DavidClick"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gridView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gridView"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/button4"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:background="@color/Green"
+            android:text="Deepali"
+            android:onClick="DeepaliClick"/>
+
+        <Button
+            android:id="@+id/button5"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:background="@color/Grey"
+            android:text="Jaxon"
+            android:onClick="JaxonClick"/>
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/gridView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toEndOf="@+id/gridView"
+        android:orientation="vertical">
+
+
+        <Button
+            android:id="@+id/button7"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:background="@color/Brown"
+            android:text="Jeffrey"
+            android:onClick="JeffreyClick"/>
+
+        <Button
+            android:id="@+id/button8"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:background="@color/Yellow"
+            android:text="Joey"
+            android:onClick="JoeyClick"/>
+
+
+        <Button
+            android:id="@+id/button9"
+            style="@style/ButtonStyle"
+            android:layout_margin="5dp"
+            android:background="@color/Blue_Grey"
+            android:text="Keenen"
+            android:onClick="KeenenClick"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button6"
+        style="@style/ButtonStyle"
+        android:background="@color/Light_Green"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_below="@+id/gridView2"
+        android:layout_centerHorizontal="true"
+        android:text="Mark"
+        android:onClick="MarkClick"/>
+
+
+</RelativeLayout>
